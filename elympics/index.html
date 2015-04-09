@@ -9,12 +9,12 @@
         <link type="text/css" rel="stylesheet" href="styles/style.css"/>
     </head>
     <body>
+
     	<header>
     		<nav class="navbar">
     			<div class="container-fluid">
     				<div class="navbar-header">
     					<button type="button" class="navbar-toggle btn" data-toggle="collapse" data-target="#myNavbar">
-    						<!-- why is the data-target not working? -->
 	    					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 						</button>
 	    				<a class="navbar-brand" href="index.html">E-LYMPICS</a>
@@ -31,11 +31,14 @@
     		</nav>
     	</header>
     	<section class="jumbotron home-image">
-    		<div class="container-fluid">
+            <!-- Don't see the purpose of container-fluid here? -->
+    		<!-- <div class="container-fluid"> -->
+
+                <!-- And voilá! -->
                 <div class="vertical-align">
 	    		     <h1>E-LYMPICS</h1>
                 </div>
-	    	</div>
+	    	<!-- </div> -->
 	    </section>
 	    <div class="content">
 	    	<section>
@@ -53,7 +56,7 @@
     		<p>A smart-city project for:</p>
     		<img src="images/berlin.png">
     	</footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script type="bootstrap/dist/js/bootstrap.min.js"></script>
         <script type="bootstrap/js/button.js"></script>
         <script type="bootstrap/js/collapse.js"></script>
